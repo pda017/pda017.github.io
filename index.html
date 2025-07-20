@@ -14,13 +14,13 @@ Going to the app download page...
     // 안드로이드인지 iOS인지 확인
     if (/android/i.test(userAgent)) {
       // Google Play 스토어 URL로 리디렉션
-      window.location.href = 'https://play.google.com/store/apps/details?id=your.app.package';
+      window.location.href = 'https://play.google.com/store/apps/details?id=com.Hiiix.ABaldAdventure';
     } else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
       // App Store URL로 리디렉션
-      window.location.href = 'https://apps.apple.com/app/your-app-id';
+      window.location.href = 'https://apps.apple.com/app/com.Hiiix.ABaldAdventure';
     } else {
       // 기타 기기일 경우 기본 페이지로 리디렉션 (예: 웹사이트)
-      window.location.href = 'https://yourwebsite.com';
+      window.location.href = 'https://play.google.com/store/apps/details?id=com.Hiiix.ABaldAdventure';
     }
   </script>
 </body>
